@@ -32,10 +32,6 @@ public class Country
     @Column(name = "iso_code")
     private String isoCode;
 
-    @Column(name = "iso_code_test")
-    private String isoCodeTest;
-
-
     @ManyToOne
     @JoinColumn(name = "region_id")
     @JsonIgnore

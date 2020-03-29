@@ -139,6 +139,7 @@
                     <logging>info</logging>
                 </configuration>
 
+
                 <!-- Liquibase dependencies-->
                 <dependencies>
                     <dependency>
